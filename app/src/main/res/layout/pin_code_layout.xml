@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pin_bg">
+
+<!--FIRST BLOCK**********************************-->
+    <!--1 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:id="@+id/pinInputLay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <!--1 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/input1"
+            android:layout_width="0sp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/pin_empty_input"/>
+        <!--2 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/input2"
+            android:layout_width="0sp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/pin_empty_input"/>
+        <!--3 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/input3"
+            android:layout_width="0sp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/pin_empty_input"/>
+        <!--4 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/input4"
+            android:layout_width="0sp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/pin_empty_input"/>
+        <!--5 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/input5"
+            android:layout_width="0sp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/pin_empty_input"/>
+        <!--6 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        </LinearLayout>
+<!--END FIRST BLOCK**********************************-->
+
+<!--SECOND BLOCK**********************************-->
+    <!--2 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:id="@+id/btnsInput1Lay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <!--1 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn1Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--2 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn2Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--3 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn3Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+        <!--4 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+<!-- END SECOND BLOCK**********************************-->
+
+<!-- THIRD BLOCK**********************************-->
+    <!--3 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:id="@+id/btnsInput2Lay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <!--1 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn4Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--2 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn5Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--3 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn6Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+        <!--4 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+    <!-- END THIRD BLOCK**********************************-->
+
+ <!-- FOURTH BLOCK**********************************-->
+    <!--4 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:id="@+id/btnsInput3Lay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <!--1 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn7Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--2 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn8Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--3 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn9Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+        <!--4 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+    <!-- END FOURTH BLOCK**********************************-->
+
+ <!-- FIFTH BLOCK**********************************-->
+    <!--5 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:id="@+id/btnsInput4Lay"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <!--1 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btn0Lay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--2 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"/>
+        <RelativeLayout
+            android:id="@+id/btnEnterLay"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pin_btn_selector"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ввод"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+        <!--3 horizontal separator-->
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+
+    </LinearLayout>
+    <!-- END FIFTH BLOCK**********************************-->
+    <!--6 vertical separator-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"/>
+
+</LinearLayout>
